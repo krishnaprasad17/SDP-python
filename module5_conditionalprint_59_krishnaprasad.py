@@ -1,0 +1,15 @@
+#CONDITONAL PRINTING
+#for multiples of 3:fizz
+#for multiples of 5:buzz
+#for both:fizzbuzz  
+
+
+for i in range(1,20):
+    if i%3==0 and i%5==0:
+        print("FIZZBUZZ")
+    elif i%5==0:
+        print("BUZZ")
+    elif i%3==0:
+        print("FIZZ")
+    else:
+        print("",i)
